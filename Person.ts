@@ -1,5 +1,11 @@
 class Person {
-    constructor (name, age, phrase){
+
+    name:string;
+    age:number;
+    phrase:string
+
+
+    constructor (name:string, age:number, phrase:string){
         this.name = name;
         this.age = age;
         this.phrase = phrase
@@ -12,4 +18,4 @@ class Person {
     }
 }
 
-module.exports = Person
+export default Person
