@@ -1,20 +1,16 @@
 class Person {
-
     name:string;
     age:number;
-    phrase:string
 
-
-    constructor (name:string, age:number, phrase:string){
+       constructor (name:string, age:number){
         this.name = name;
         this.age = age;
-        this.phrase = phrase
-
+        
     }
 
-    humilhar (){
+    sayMyName(){
         console.log (` Meu nome é ${this.name}`)
-        console.log (`Gosto de humilhar as pessoas falando ${this.phrase}`)
+        
     }
 }
 

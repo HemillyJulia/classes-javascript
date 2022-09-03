@@ -1,6 +1,15 @@
 import Person from "./Person"
-const pessoa1 = new Person ("Hemilly", 20, "Tu é leso é?")
-const pessoa2 = new Person ("Alex", 28, "A gata não sabe nem JavaScript")
-const pessoa3 = new Person ("Maria Eduarda", 12,"Não sabe nem dançar")
+import Student from "./Student"
 
-pessoa2.humilhar()
+
+const person1 = new Person ("Hemilly", 29);
+
+
+const student1 = new Student ("Fernanda", 10)
+student1.colocarFalta (5)
+
+console.log (student1)
+
+student1.colocarFalta(120)
+
+console.log(student1)
